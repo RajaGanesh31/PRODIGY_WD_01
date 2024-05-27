@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  transition: color 0.3s ease;
+}
+
+.content {
+  height: 2000px; /* Just for demonstration */
+}
+
+.navbar.scrolled {
+  background-color: #333;
+}
+
+.nav-item:hover {
+  color: #ff9900;
+}
